@@ -1,0 +1,47 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import './styles/variables';
+html,
+body {
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+h1 {
+    font-size: $h1-font;
+}
+
+.header-container {
+    padding-top: 5%;
+}
+
+.mat-slider.mat-slider-horizontal .mat-slider-wrapper {
+    top: 18px;
+}
+
+.mat-slider.mat-slider-horizontal .mat-slider-track-wrapper {
+    height: 12px;
+    border-radius: 10px
+}
+
+.mat-slider.mat-slider-horizontal .mat-slider-track-background,
+.mat-slider.mat-slider-horizontal .mat-slider-track-fill {
+    height: 100%;
+}
+
+.mat-slider.mat-slider-horizontal .mat-slider-track-fill {
+    background-color: $card-title;
+}
+
+.mat-accent .mat-slider-thumb {
+    height: 40px;
+    width: 25px;
+    background-color: #850001;
+    border: solid 1px gray;
+    border-radius: 5px;
+    bottom: -23px;
+    right: -15px;
+}
+
+.mat-slider-min-value:not(.mat-slider-thumb-label-showing) .mat-slider-thumb {
+    background-color: #850001;
+}

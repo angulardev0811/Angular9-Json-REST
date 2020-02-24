@@ -1,0 +1,31 @@
+<div class="container mb-4" fxLayout="column">
+    <div class="row con-section">
+        <div class="col-md-7">
+            <h1>Lorem ipsum dolor sit amet</h1>
+            <div class="context">
+                <h4>Suspendisse a justo nunc. Donec turpis nibh, rutrum et sollicitudin eget, dictum nec odio. Sed ac ipsum quis nisi sagittis tincidunt vel at tellus. Sed et ipsum suscipit lectus molestie porttitor at sit amet nunc.</h4>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div *ngFor="let list of cardlist" class="col-md-4">
+            <div class="card mb-2">
+                <div class="card-body column">
+                    <h2 class="card-title text-center">
+                        <img src="../assets/design/NoPath - copia.png">
+                    </h2>
+                    <h2 class="card-title text-center">{{ list.name }}.</h2>
+                    <div class="card-title text-center">
+                        <img src="../assets/design/Line.png">
+                    </div>
+
+                    <h4 class="text-center card-body">Vestibulum egestas finibus metus, in imperdiet dui luctus at. Nullam vitae sodales felis. Pellentesque in lígula.</h4>
+                    <a (click)="detail(list.id)" mat-mini-fab class="detail-btn-1"><i class='fas fa-arrow-right' style='font-size:24px;'></i></a>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>

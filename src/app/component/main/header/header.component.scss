@@ -1,0 +1,34 @@
+@import '../../../../styles/variables.scss';
+.header-underline {
+    border-bottom: 3px solid $head-title;
+}
+
+h2 {
+    color: $head-title;
+    font-size: $card-title;
+}
+
+h4 {
+    font-size: $h4-font;
+}
+
+mat-slider {
+    width: 100%;
+}
+
+.card {
+    box-shadow: $card-shadow;
+}
+
+.slider-text {
+    color: $detail-card-btn-color;
+}
+
+@media (max-width: 767px) {
+    h1 {
+        font-size: 26px;
+    }
+    img {
+        width: 80%;
+    }
+}

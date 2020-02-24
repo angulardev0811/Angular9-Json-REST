@@ -1,0 +1,30 @@
+@import '../../../../styles/variables.scss';
+.row {
+    padding-bottom: 3%;
+}
+
+h2 {
+    font-size: $h2-font;
+}
+
+.red-text {
+    font-size: 36px;
+}
+
+.card-head-title {
+    color: $card-title;
+}
+
+.card {
+    box-shadow: $card-shadow;
+    min-height: 355px;
+}
+
+@media (max-width: 767px) {
+    h1 {
+        font-size: 26px !important;
+    }
+    .card {
+        min-height: auto;
+    }
+}

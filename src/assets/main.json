@@ -1,0 +1,76 @@
+{
+    "featured": [{
+            "id": 0,
+            "name": "Lolem Ipsue Testing",
+            "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+            "image": "../assets/design/NoPath - copia.png"
+        },
+        {
+            "id": 1,
+            "name": "Lolem Ipsue Testing",
+            "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+            "image": "../assets/design/NoPath - copia.png"
+        },
+        {
+            "id": 2,
+            "name": "Lolem Ipsue Testing",
+            "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+            "image": "../assets/design/NoPath - copia.png"
+        }
+    ],
+    "list": [{
+            "id": 4,
+            "name": "Lolem Ipsue Testing",
+            "description": "",
+            "image": ""
+        },
+        {
+            "id": 5,
+            "name": "Lolem Ipsue Testing",
+            "description": "",
+            "image": ""
+        },
+        {
+            "id": 6,
+            "name": "Lolem Ipsue Testing",
+            "description": "",
+            "image": ""
+        },
+        {
+            "id": 7,
+            "name": "Lolem Ipsue Testing",
+            "description": "",
+            "image": ""
+        },
+        {
+            "id": 8,
+            "name": "Lolem Ipsue Testing",
+            "description": "",
+            "image": ""
+        },
+        {
+            "id": 9,
+            "name": "Lolem Ipsue Testing",
+            "description": "",
+            "image": ""
+        },
+        {
+            "id": 10,
+            "name": "Lolem Ipsue Testing",
+            "description": "",
+            "image": ""
+        },
+        {
+            "id": 11,
+            "name": "Lolem Ipsue Testing",
+            "description": "",
+            "image": ""
+        },
+        {
+            "id": 12,
+            "name": "Lolem Ipsue Testing",
+            "description": "",
+            "image": ""
+        }
+    ]
+}

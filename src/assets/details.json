@@ -1,0 +1,42 @@
+{
+    "id": 4,
+    "name": "Organiza todo lo que sucede en tu negocio",
+    "description": "Suspendisse a justo nunc. Donec turpis nibh, rutrum et sollicitudin eget, dictum nec odio. Sed ac ipsum quis nisi sagittis tincidunt vel at tellus. Sed et ipsum suscipit lectus molestie",
+    "logo": "",
+    "video": {
+        "preview": "https://i.ytimg.com/vi/2lAe1cqCOXo/mqdefault.jpg",
+        "url": "https://www.youtube.com/watch?v=2lAe1cqCOXo"
+    },
+    "features": [{
+            "title": "Fácil de usar",
+            "image": "",
+            "description": "Un software fácil de verdad. Tu tiempo es oro, por eso hemos diseñado bilage de forma muy sencilla e intuitiva para que puedas ponerte en marcha desde el primer día"
+        },
+        {
+            "title": "Ahorra el 63% de tu tiempo",
+            "image": "",
+            "description": "Nuestros clientes lo confirman. Han ganado en agilidad y son más productivos en la gestión de su negocio. Automatiza procesos y céntrate en lo importante."
+        },
+        {
+            "title": "Todo organizado",
+            "image": "",
+            "description": "Toda la información que antes tenías dispersa ahora en una sola herramienta. Controla lo que está pasando en tu negocio de una sola vista. de forma directa y clara."
+        }
+    ],
+    "offers": [{
+            "title": "Mauris laoree",
+            "image": "../assets/design/Icons - MEDIUM - Color - Money.svg",
+            "description": "Suspendisse eget mauris ipsum. Vivamus consequat mollis lectus, fringilla elementum risus condimentum nec. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam non sapien eu nulla convallis."
+        },
+        {
+            "title": "Nunc pretium",
+            "image": "../assets/design/Group 5.svg",
+            "description": " Nam vulputate eros a leo fermentum, vitae hendrerit sapien iaculis. Nam facilisis urna eget risus laoreet, vel pellentesque nibh congue. "
+        },
+        {
+            "title": "Integer tempor",
+            "image": "../assets/design/Icons - MEDIUM - Color - Person.svg",
+            "description": "Donec turpis nibh, rutrum et sollicitudin eget, dictum nec odio. Sed ac ipsum quis nisi sagittis tincidunt vel at tellus. Sed et ipsum suscipit"
+        }
+    ]
+}

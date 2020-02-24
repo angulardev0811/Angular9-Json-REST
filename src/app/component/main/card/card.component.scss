@@ -1,0 +1,30 @@
+@import '../../../../styles/variables.scss';
+.con-section {
+    margin-top: 6%;
+}
+
+.context {
+    border-left: 6px solid #FF7B8C;
+}
+
+.context>h4 {
+    color: black !important;
+    padding: 15px;
+    padding-left: 30px;
+}
+
+.card {
+    box-shadow: $card-shadow;
+}
+
+h2 {
+    color: $card-title;
+    font-size: $h2-font;
+    display: block;
+}
+
+.detail-btn-1 {
+    position: relative;
+    float: right;
+    background-color: $detail-card-btn-color;
+}

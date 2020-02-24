@@ -1,0 +1,72 @@
+@import '../../../../styles/variables.scss';
+.carousel-container {
+    background-color: $carousel-background;
+    padding: 3%;
+}
+
+h1 {
+    font-size: $h1-font;
+    color: $detail-card-btn-color;
+}
+
+h2 {
+    color: $card-content-title;
+    font-size: $h2-font;
+}
+
+h4 {
+    font-size: $h4-font !important;
+    color: $card-content-title !important;
+}
+
+.controls-top {
+    z-index: 1030;
+    width: 100%;
+    position: relative;
+    top: 130px;
+}
+
+.arrow-left {
+    margin-left: -4%;
+}
+
+.arrow-right {
+    margin-left: 8%;
+}
+
+.arrow-right>a {
+    position: relative;
+    float: right;
+}
+
+.btn-floating>i {
+    color: $detail-card-btn-color;
+    font-size: 24px;
+}
+
+.card {
+    background-color: $card-title;
+    box-shadow: $card-shadow;
+}
+
+.detail-btn {
+    position: relative;
+    float: right;
+    border-radius: 50%;
+    background-color: $detail-carousel-btn-color;
+}
+
+@media (max-width: 767px) {
+    h1 {
+        font-size: 26px;
+    }
+    .arrow-left {
+        margin: 0;
+    }
+}
+
+.carousel-inner>.item>img,
+.carousel-inner>.item>a>img {
+    width: 70%;
+    margin: auto;
+}
